@@ -1,0 +1,66 @@
+<div class="main-page">
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-xl  justify-content-between">
+                <a class="navbar-brand" href="#">
+                    <img src="../../../assets/img/logo.png"/>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link font-65" href="#">الرئيسية <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-65" href="#">عن المنصة</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-65" href="#">المبادرات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-65" href="#">فرص انوسوفت</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-65" href="#">تواصل معنا</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-65" href="#">الشركات</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="controls-d">
+                    <span class="ico-header act">
+                        <i class="fas fa-user-plus"></i>
+                    </span>
+                    <span class="ico-header">
+                        <i class="fas fa-cog"></i>
+                    </span>
+                    <span class="ico-header">
+                        <i class="fas fa-search"></i>
+                    </span>
+                </div>
+            </div>
+
+          </nav>
+    </header>
+
+    <!-- Content -->
+    <div class="content-divi">
+        <router-outlet></router-outlet>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-xl" >
+            <div class="row justify-content-between">
+                <p class="col-auto py-3 m-0 font-65">جميع الحقوق محفوظة – انوسوفت © 2021 </p>
+                <p class="col-auto py-3 m-0 font-65">سياسة الخصوصية | الشروط و الأحكام</p>
+            </div>
+        </div>
+    </footer>
+
+</div>

@@ -1,0 +1,54 @@
+
+// ------------Header
+header{
+    position: fixed;
+    z-index: 5555;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #ffff;
+    box-shadow: 0px 2px 14px #0000001A;
+    > .navbar{
+        background: #fff;
+        .navbar-brand{
+            img{
+                max-width: 135px;
+            }
+        }
+
+        .navbar-collapse{
+            flex-grow: inherit;
+            .navbar-nav{
+                .nav-item{
+                    &.active{
+                        .nav-link {
+                            color: #4B4B4B;
+                        }
+                    }
+                    .nav-link{
+                        color: #009EE2;
+                        opacity: 1 !important;
+                        font-size: 14px !important;
+                    }
+                }
+            }
+        }
+    }
+    .ico-header{
+        font-size: 15px;
+        padding: 0 15px;
+        &.act{
+            color: #009EE2;
+        }
+        
+    }
+}
+
+// ---------Footer
+footer{
+    background: #009EE2;
+    color: #fff;
+    p{
+        font-size: 12px;
+    }
+}
